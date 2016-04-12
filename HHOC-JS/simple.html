@@ -1,0 +1,37 @@
+<html>
+    <body style="background-color:#ff0000">
+        <script>
+            var Test = {};
+            Test.platform = {
+                name: 'IOS'
+            };
+            // 返回App识别ID
+            Test.getAppId = function(){
+                return '[AppId]';
+            };
+            // 返回用户Id
+            Test.getUserId = function(){
+                return '[UserId]';
+            };
+            // 返回当前AppVersion
+            Test.getAppVersion = function(){
+                return '[AppVersion]';
+            };
+            Test.open = function(str){
+                setTimeout(function(){
+                           document.location = 'Test://open/'+str;
+                           },50);
+            };
+            window.Test = Test;
+            
+            function showAlert(str){
+                alert(str);
+            }
+        
+        </script>
+        
+        
+    This is a test.
+    
+    </body>
+</html>

@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F17A33221C5EFBF700D5D638 /* youtubeplayer.html in Resources */ = {isa = PBXBuildFile; fileRef = F17A33211C5EFBF700D5D638 /* youtubeplayer.html */; };
+		F17A33251C5F0C0700D5D638 /* YoutubeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17A33241C5F0C0700D5D638 /* YoutubeViewController.m */; };
+		F17A332A1C5F2B5700D5D638 /* jsc.html in Resources */ = {isa = PBXBuildFile; fileRef = F17A33291C5F2B5700D5D638 /* jsc.html */; };
+		F17A332D1C5F32BF00D5D638 /* JSCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17A332C1C5F32BF00D5D638 /* JSCViewController.m */; };
 		F1859FAC1C5B9FC000884E9D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F1859FAB1C5B9FC000884E9D /* main.m */; };
 		F1859FAF1C5B9FC000884E9D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F1859FAE1C5B9FC000884E9D /* AppDelegate.m */; };
 		F1859FB21C5B9FC000884E9D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1859FB11C5B9FC000884E9D /* ViewController.m */; };
@@ -15,6 +19,8 @@
 		F1859FBA1C5B9FC000884E9D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F1859FB81C5B9FC000884E9D /* LaunchScreen.storyboard */; };
 		F1859FC51C5B9FC000884E9D /* HHOC_JSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1859FC41C5B9FC000884E9D /* HHOC_JSTests.m */; };
 		F1859FD01C5B9FC000884E9D /* HHOC_JSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F1859FCF1C5B9FC000884E9D /* HHOC_JSUITests.m */; };
+		F1859FDE1C5BA02100884E9D /* simple.html in Resources */ = {isa = PBXBuildFile; fileRef = F1859FDD1C5BA02100884E9D /* simple.html */; };
+		F1859FE11C5BA5C100884E9D /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F1859FE01C5BA5C100884E9D /* SimpleViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +41,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F17A33211C5EFBF700D5D638 /* youtubeplayer.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = youtubeplayer.html; sourceTree = "<group>"; };
+		F17A33231C5F0C0700D5D638 /* YoutubeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YoutubeViewController.h; sourceTree = "<group>"; };
+		F17A33241C5F0C0700D5D638 /* YoutubeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YoutubeViewController.m; sourceTree = "<group>"; };
+		F17A33291C5F2B5700D5D638 /* jsc.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jsc.html; sourceTree = "<group>"; };
+		F17A332B1C5F32BF00D5D638 /* JSCViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSCViewController.h; sourceTree = "<group>"; };
+		F17A332C1C5F32BF00D5D638 /* JSCViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSCViewController.m; sourceTree = "<group>"; };
 		F1859FA71C5B9FC000884E9D /* HHOC-JS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "HHOC-JS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1859FAB1C5B9FC000884E9D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		F1859FAD1C5B9FC000884E9D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +63,9 @@
 		F1859FCB1C5B9FC000884E9D /* HHOC-JSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "HHOC-JSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F1859FCF1C5B9FC000884E9D /* HHOC_JSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HHOC_JSUITests.m; sourceTree = "<group>"; };
 		F1859FD11C5B9FC000884E9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F1859FDD1C5BA02100884E9D /* simple.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = simple.html; sourceTree = "<group>"; };
+		F1859FDF1C5BA5C100884E9D /* SimpleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleViewController.h; sourceTree = "<group>"; };
+		F1859FE01C5BA5C100884E9D /* SimpleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +120,15 @@
 				F1859FAE1C5B9FC000884E9D /* AppDelegate.m */,
 				F1859FB01C5B9FC000884E9D /* ViewController.h */,
 				F1859FB11C5B9FC000884E9D /* ViewController.m */,
+				F1859FDF1C5BA5C100884E9D /* SimpleViewController.h */,
+				F1859FE01C5BA5C100884E9D /* SimpleViewController.m */,
+				F17A33231C5F0C0700D5D638 /* YoutubeViewController.h */,
+				F17A33241C5F0C0700D5D638 /* YoutubeViewController.m */,
+				F17A332B1C5F32BF00D5D638 /* JSCViewController.h */,
+				F17A332C1C5F32BF00D5D638 /* JSCViewController.m */,
+				F1859FDD1C5BA02100884E9D /* simple.html */,
+				F17A33291C5F2B5700D5D638 /* jsc.html */,
+				F17A33211C5EFBF700D5D638 /* youtubeplayer.html */,
 				F1859FB31C5B9FC000884E9D /* Main.storyboard */,
 				F1859FB61C5B9FC000884E9D /* Assets.xcassets */,
 				F1859FB81C5B9FC000884E9D /* LaunchScreen.storyboard */,
@@ -243,7 +267,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F17A332A1C5F2B5700D5D638 /* jsc.html in Resources */,
+				F17A33221C5EFBF700D5D638 /* youtubeplayer.html in Resources */,
 				F1859FBA1C5B9FC000884E9D /* LaunchScreen.storyboard in Resources */,
+				F1859FDE1C5BA02100884E9D /* simple.html in Resources */,
 				F1859FB71C5B9FC000884E9D /* Assets.xcassets in Resources */,
 				F1859FB51C5B9FC000884E9D /* Main.storyboard in Resources */,
 			);
@@ -271,8 +298,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				F1859FB21C5B9FC000884E9D /* ViewController.m in Sources */,
+				F17A332D1C5F32BF00D5D638 /* JSCViewController.m in Sources */,
 				F1859FAF1C5B9FC000884E9D /* AppDelegate.m in Sources */,
+				F1859FE11C5BA5C100884E9D /* SimpleViewController.m in Sources */,
 				F1859FAC1C5B9FC000884E9D /* main.m in Sources */,
+				F17A33251C5F0C0700D5D638 /* YoutubeViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,6 +528,7 @@
 				F1859FD61C5B9FC000884E9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1859FD71C5B9FC000884E9D /* Build configuration list for PBXNativeTarget "HHOC-JSTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +537,7 @@
 				F1859FD91C5B9FC000884E9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		F1859FDA1C5B9FC000884E9D /* Build configuration list for PBXNativeTarget "HHOC-JSUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +546,7 @@
 				F1859FDC1C5B9FC000884E9D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
