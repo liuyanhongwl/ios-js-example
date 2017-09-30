@@ -1,5 +1,5 @@
 //
-//  MasterViewController.h
+//  SimpleViewController.h
 //  ios-js-example
 //
 //  Created by hong-drmk on 2017/9/29.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MasterViewController : UITableViewController
-
+@interface SimpleViewController : UIViewController
 
 @end
-

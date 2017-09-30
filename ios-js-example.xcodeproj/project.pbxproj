@@ -9,13 +9,18 @@
 /* Begin PBXBuildFile section */
 		28F768A81F7E5EE300D339DC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F768A71F7E5EE300D339DC /* AppDelegate.m */; };
 		28F768AB1F7E5EE300D339DC /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F768AA1F7E5EE300D339DC /* MasterViewController.m */; };
-		28F768AE1F7E5EE300D339DC /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F768AD1F7E5EE300D339DC /* DetailViewController.m */; };
 		28F768B11F7E5EE300D339DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F768AF1F7E5EE300D339DC /* Main.storyboard */; };
 		28F768B31F7E5EE300D339DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28F768B21F7E5EE300D339DC /* Assets.xcassets */; };
 		28F768B61F7E5EE300D339DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28F768B41F7E5EE300D339DC /* LaunchScreen.storyboard */; };
 		28F768B91F7E5EE300D339DC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F768B81F7E5EE300D339DC /* main.m */; };
 		28F768C31F7E5EE300D339DC /* ios_js_exampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F768C21F7E5EE300D339DC /* ios_js_exampleTests.m */; };
 		28F768CE1F7E5EE300D339DC /* ios_js_exampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F768CD1F7E5EE300D339DC /* ios_js_exampleUITests.m */; };
+		28F768DE1F7E676300D339DC /* SimpleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F768DD1F7E676300D339DC /* SimpleViewController.m */; };
+		28F768E11F7E6ACA00D339DC /* JSCoreViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F768E01F7E6ACA00D339DC /* JSCoreViewController.m */; };
+		28F768E41F7E6B7800D339DC /* simple.html in Resources */ = {isa = PBXBuildFile; fileRef = 28F768E31F7E6B7800D339DC /* simple.html */; };
+		28F768E61F7E6E6C00D339DC /* jsc.html in Resources */ = {isa = PBXBuildFile; fileRef = 28F768E51F7E6E6C00D339DC /* jsc.html */; };
+		28F768E91F7F389F00D339DC /* WKWebViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28F768E81F7F389F00D339DC /* WKWebViewViewController.m */; };
+		28F768EB1F7F6AB800D339DC /* wkjs.html in Resources */ = {isa = PBXBuildFile; fileRef = 28F768EA1F7F6AB800D339DC /* wkjs.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,8 +46,6 @@
 		28F768A71F7E5EE300D339DC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		28F768A91F7E5EE300D339DC /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		28F768AA1F7E5EE300D339DC /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		28F768AC1F7E5EE300D339DC /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
-		28F768AD1F7E5EE300D339DC /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
 		28F768B01F7E5EE300D339DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28F768B21F7E5EE300D339DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28F768B51F7E5EE300D339DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -54,6 +57,15 @@
 		28F768C91F7E5EE300D339DC /* ios-js-exampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ios-js-exampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28F768CD1F7E5EE300D339DC /* ios_js_exampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ios_js_exampleUITests.m; sourceTree = "<group>"; };
 		28F768CF1F7E5EE300D339DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28F768DC1F7E676300D339DC /* SimpleViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SimpleViewController.h; sourceTree = "<group>"; };
+		28F768DD1F7E676300D339DC /* SimpleViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SimpleViewController.m; sourceTree = "<group>"; };
+		28F768DF1F7E6ACA00D339DC /* JSCoreViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JSCoreViewController.h; sourceTree = "<group>"; };
+		28F768E01F7E6ACA00D339DC /* JSCoreViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSCoreViewController.m; sourceTree = "<group>"; };
+		28F768E31F7E6B7800D339DC /* simple.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = simple.html; sourceTree = "<group>"; };
+		28F768E51F7E6E6C00D339DC /* jsc.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = jsc.html; sourceTree = "<group>"; };
+		28F768E71F7F389F00D339DC /* WKWebViewViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WKWebViewViewController.h; sourceTree = "<group>"; };
+		28F768E81F7F389F00D339DC /* WKWebViewViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WKWebViewViewController.m; sourceTree = "<group>"; };
+		28F768EA1F7F6AB800D339DC /* wkjs.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = wkjs.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,12 +116,12 @@
 		28F768A51F7E5EE300D339DC /* ios-js-example */ = {
 			isa = PBXGroup;
 			children = (
+				28F768E21F7E6B5300D339DC /* resources */,
+				28F768DB1F7E675100D339DC /* controllers */,
 				28F768A61F7E5EE300D339DC /* AppDelegate.h */,
 				28F768A71F7E5EE300D339DC /* AppDelegate.m */,
 				28F768A91F7E5EE300D339DC /* MasterViewController.h */,
 				28F768AA1F7E5EE300D339DC /* MasterViewController.m */,
-				28F768AC1F7E5EE300D339DC /* DetailViewController.h */,
-				28F768AD1F7E5EE300D339DC /* DetailViewController.m */,
 				28F768AF1F7E5EE300D339DC /* Main.storyboard */,
 				28F768B21F7E5EE300D339DC /* Assets.xcassets */,
 				28F768B41F7E5EE300D339DC /* LaunchScreen.storyboard */,
@@ -135,6 +147,29 @@
 				28F768CF1F7E5EE300D339DC /* Info.plist */,
 			);
 			path = "ios-js-exampleUITests";
+			sourceTree = "<group>";
+		};
+		28F768DB1F7E675100D339DC /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				28F768DC1F7E676300D339DC /* SimpleViewController.h */,
+				28F768DD1F7E676300D339DC /* SimpleViewController.m */,
+				28F768DF1F7E6ACA00D339DC /* JSCoreViewController.h */,
+				28F768E01F7E6ACA00D339DC /* JSCoreViewController.m */,
+				28F768E71F7F389F00D339DC /* WKWebViewViewController.h */,
+				28F768E81F7F389F00D339DC /* WKWebViewViewController.m */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		28F768E21F7E6B5300D339DC /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				28F768E31F7E6B7800D339DC /* simple.html */,
+				28F768E51F7E6E6C00D339DC /* jsc.html */,
+				28F768EA1F7F6AB800D339DC /* wkjs.html */,
+			);
+			path = resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -243,7 +278,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28F768E41F7E6B7800D339DC /* simple.html in Resources */,
+				28F768EB1F7F6AB800D339DC /* wkjs.html in Resources */,
 				28F768B61F7E5EE300D339DC /* LaunchScreen.storyboard in Resources */,
+				28F768E61F7E6E6C00D339DC /* jsc.html in Resources */,
 				28F768B31F7E5EE300D339DC /* Assets.xcassets in Resources */,
 				28F768B11F7E5EE300D339DC /* Main.storyboard in Resources */,
 			);
@@ -270,10 +308,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28F768E91F7F389F00D339DC /* WKWebViewViewController.m in Sources */,
 				28F768AB1F7E5EE300D339DC /* MasterViewController.m in Sources */,
 				28F768A81F7E5EE300D339DC /* AppDelegate.m in Sources */,
+				28F768DE1F7E676300D339DC /* SimpleViewController.m in Sources */,
 				28F768B91F7E5EE300D339DC /* main.m in Sources */,
-				28F768AE1F7E5EE300D339DC /* DetailViewController.m in Sources */,
+				28F768E11F7E6ACA00D339DC /* JSCoreViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

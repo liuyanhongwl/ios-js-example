@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style type="text/css">
+            input {font-size: 16px;color:blue;}
+            </style>
+        <title>Use WebKit</title>
+        <script>
+            function showImage(src) {
+                document.getElementById("image").src = src
+            }
+        </script>
+    </head>
+    <body>
+        <h1>Use JS on iOS by WKWebView.</h1>
+        <br/><br/>
+        <input type="button" value="js invoke ios method" onclick="window.webkit.messageHandlers.callCamera.postMessage(null)">
+        <br/><br/>
+        <img id="image" style="width:100%; height:200px;"/>
+        </body>
+</html>
+
+
