@@ -75,8 +75,7 @@ UINavigationControllerDelegate
     NSLog(@"%s : %@", __FUNCTION__, shareString);
     
     //oc 调用 js 方法
-    JSValue *showAlert = self.jsContext[@"showAlert"];
-    [showAlert callWithArguments:@[@"hello", @"JavaScriptCore"]];
+    [self.jsContext evaluateScript:@"showAlert('Hello', 'JavaScriptCore')"];
 }
 
 #pragma mark UIImagePickerControllerDelegate
